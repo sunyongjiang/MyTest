@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyTest</string>
+    <string name="button_keyevent">按键检测</string>
+    <string name="button_ime_select">输入法选择</string>
+    <!-- freezapp -->
+    <string name="button_freez_app">应用冻结</string>
+
+    <string-array name="black_list">
+        <item>com.yunos.advert.service</item>
+        <item>com.yunos.osupdate</item>
+    </string-array>
+    <string name="button_delete_advert">删除开机广告</string>
+
+</resources>

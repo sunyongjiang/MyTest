@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/key_event"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onClick"
+            android:text="@string/button_keyevent" />
+
+        <Button
+            android:id="@+id/ime_select"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onClick"
+            android:text="@string/button_ime_select" />
+
+        <Button
+            android:id="@+id/freez_app"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onClick"
+            android:text="@string/button_freez_app" />
+
+        <Button
+            android:id="@+id/delete_advert"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onClick"
+            android:text="@string/button_delete_advert" />
+    </LinearLayout>
+
+</LinearLayout>
